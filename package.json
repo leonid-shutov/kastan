@@ -1,31 +1,28 @@
 {
-  "name": "oppress",
-  "version": "1.0.0-alpha.8",
+  "name": "kastan",
+  "version": "1.0.0-alpha.0",
   "author": "Leonid Shutov <leonid.shutov.main@gmail.com>",
-  "description": "~Express~ ~Impress~ Oppress",
   "license": "MIT",
-  "homepage": "https://github.com/leonid-shutov/oppress#readme",
-  "main": "oppress.js",
+  "homepage": "https://github.com/leonid-shutov/kastan#readme",
+  "main": "kastan.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonid-shutov/oppress.git"
+    "url": "git+https://github.com/leonid-shutov/kastan.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@fastify/cors": "^11.0.1",
     "@leonid-shutov/uncommonjs": "1.0.0-alpha.5",
-    "fastify": "^5.2.1",
-    "metaschema": "^2.2.1"
+    "metaschema": "^2.2.1",
+    "fastify": "^5.6.2",
+    "@fastify/cors": "^11.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.17.30",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.0",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.31.0",
+    "eslint-config-metarhia": "^9.1.1",
+    "prettier": "^3.7.4",
     "typescript": "^5.1.6"
   }
 }

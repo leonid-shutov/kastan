@@ -1,5 +1,5 @@
 {
-  "name": "kordon",
+  "name": "example",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "oppress": "1.0.0-alpha.6",
+    "kastan": "1.0.0-alpha.6",
     "pg": "^8.15.6"
   },
   "devDependencies": {
